@@ -1,0 +1,30 @@
+~~* Maintain list of available actions inside Unit
+~~* Maintain list of UI buttons in PlayerController
+~~* Make onClick() of buttons call SetCurrentAction in PlayerController
+~~	Also set correct color for highlighted button
+~~* Highlight selected unit
+~~* Scrolling screen
+~~	Arrow keys for now, later: capture mouse cursor 
+~~* "AI" controlled units
+~~	something really simple, "only move right" sorta thing for now
+~~* Fix off-by-half errors w/ units
+~~* Obstacles
+~~	Make other units solid as well
+~~* Gridlines
+~~	Just a bunch of LineRenderers for now, fix later
+
+~~* Click & drag navigation
+~~	Zoom
+
+* Rendered boundary for max distance
+
+* Ranged vs melee attacks
+
+* Pathfinding
+* Menu/Settings
+* Differences in unit types
+* Other Sprites
+* Tilemap ----BACKBURNER: Native Unity Tilemap available in 2017.2 
+	--INVESTIGATE: May be better to just use Tiled & a custom loader, we'll see
+	--NEXT: Actual Game World
+* Better Naming Conventions for Actions (conflicts w/ system.action)
